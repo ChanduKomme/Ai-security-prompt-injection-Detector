@@ -71,6 +71,3 @@ In JSON, an unscored row has `model_flagged: null` and an `error`. The `evaluate
 
 Use the verdicts as triage signals. An application that handles private data or takes actions should enforce access control and validate actions independently of the classifier.
 
-## Attribution
-
-Adapted from Sanjeev Jaiswal’s [Prompt-Injection Detector](https://github.com/jassics/ai-security-projects/tree/3ea65ff7a4bf1d8c74f54e4271ab36275c015bdc/01-prompt-injection-detector). This version adds validated model verdicts, per-row failure reporting, clean JSON output, and regression tests. The original copyright notice is included in the [MIT license](LICENSE).
