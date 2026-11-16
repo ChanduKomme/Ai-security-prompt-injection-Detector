@@ -187,4 +187,3 @@ All 22 tests pass locally. They cover rule matching, decoding, scoring, JSON out
 - Prompt injection, trust boundaries, and layered mitigations. [OWASP LLM01:2025 Prompt Injection](https://genai.owasp.org/llmrisk/llm01-prompt-injection/)
 - Schema-constrained tool inputs for Claude. [Claude Platform documentation on strict tool use](https://platform.claude.com/docs/en/agents-and-tools/tool-use/strict-tool-use)
 
-This repository is adapted from Sanjeev Jaiswal’s original Prompt-Injection Detector. It includes the original copyright notice and license. [Upstream project](https://github.com/jassics/ai-security-projects/tree/3ea65ff7a4bf1d8c74f54e4271ab36275c015bdc/01-prompt-injection-detector) · [MIT license](LICENSE)
