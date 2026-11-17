@@ -1,3 +1,0 @@
-# Optional dependencies for the online comparison.
-anthropic>=1.0.0
-python-dotenv>=1.0.1
