@@ -1,4 +1,4 @@
-#  Prompt-Injection Detector
+#   Ai-security-prompt-injection-Detector
 
 **Beginner project** · Python 3.10+ · Regular expressions · Structured Claude verdicts · Precision and recall
 
