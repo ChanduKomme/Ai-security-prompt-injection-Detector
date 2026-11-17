@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "injectscope"
+version = "1.0.0"
+description = "Hybrid prompt-injection detector: explainable rules + from-scratch classifier + optional LLM judge, with an honest benchmark"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Chandu Komme"}]
+requires-python = ">=3.10"
+keywords = ["prompt-injection", "llm-security", "owasp-llm", "machine-learning", "detection"]
+
+[project.scripts]
+injectscope = "injectscope.cli:main"
+
+[tool.setuptools]
+packages = ["injectscope"]
+
+[tool.setuptools.package-data]
+injectscope = ["model.json", "model_text.json"]
