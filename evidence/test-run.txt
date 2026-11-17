@@ -1,0 +1,51 @@
+test_blind_sets_unchanged (test_benchmark.BenchmarkTests.test_blind_sets_unchanged) ... ok
+test_folds_are_stratified_and_complete (test_benchmark.BenchmarkTests.test_folds_are_stratified_and_complete) ... ok
+test_gates_defined_for_every_eval_set (test_benchmark.BenchmarkTests.test_gates_defined_for_every_eval_set) ... ok
+test_no_overlap_between_train_and_eval_sets (test_benchmark.BenchmarkTests.test_no_overlap_between_train_and_eval_sets) ... ok
+test_exit_codes (test_cli.CliTests.test_exit_codes) ... ok
+test_file_batch (test_cli.CliTests.test_file_batch) ... ok
+test_json_output (test_cli.CliTests.test_json_output) ... ok
+test_all_modes (test_detector.DetectorTests.test_all_modes) ... ok
+test_attack_and_benign (test_detector.DetectorTests.test_attack_and_benign) ... ok
+test_bad_mode (test_detector.DetectorTests.test_bad_mode) ... ok
+test_decoded_strong_rule_is_decisive (test_detector.DetectorTests.test_decoded_strong_rule_is_decisive) ... ok
+test_judge_failure_keeps_own_verdict (test_detector.DetectorTests.test_judge_failure_keeps_own_verdict) ... ok
+test_judge_only_in_band (test_detector.DetectorTests.test_judge_only_in_band) ... ok
+test_result_serialises (test_detector.DetectorTests.test_result_serialises) ... ok
+test_from_env (test_judge.JudgeTests.test_from_env) ... ok
+test_network_error_returns_none (test_judge.JudgeTests.test_network_error_returns_none) ... ok
+test_parse_rejects_bad_shapes (test_judge.JudgeTests.test_parse_rejects_bad_shapes) ... ok
+test_parse_valid (test_judge.JudgeTests.test_parse_valid) ... ok
+test_request_shape_and_scan_tag_escape (test_judge.JudgeTests.test_request_shape_and_scan_tag_escape) ... ok
+test_auc (test_metrics.MetricTests.test_auc) ... ok
+test_best_threshold_is_middle_of_tied_range (test_metrics.MetricTests.test_best_threshold_is_middle_of_tied_range) ... ok
+test_percentile (test_metrics.MetricTests.test_percentile) ... ok
+test_scores (test_metrics.MetricTests.test_scores) ... ok
+test_deterministic (test_model.ModelTests.test_deterministic) ... ok
+test_explain_returns_features (test_model.ModelTests.test_explain_returns_features) ... ok
+test_learns_and_separates (test_model.ModelTests.test_learns_and_separates) ... ok
+test_rejects_foreign_file (test_model.ModelTests.test_rejects_foreign_file) ... ok
+test_save_load_roundtrip (test_model.ModelTests.test_save_load_roundtrip) ... ok
+test_extraction_and_owasp (test_rules.RuleTests.test_extraction_and_owasp) ... ok
+test_multilingual_needs_non_english_verb (test_rules.RuleTests.test_multilingual_needs_non_english_verb) ... ok
+test_noisy_or (test_rules.RuleTests.test_noisy_or) ... ok
+test_override (test_rules.RuleTests.test_override) ... ok
+test_rule_metadata (test_rules.RuleTests.test_rule_metadata) ... ok
+test_signals_in_range (test_rules.RuleTests.test_signals_in_range) ... ok
+test_trigger_words_do_not_fire (test_rules.RuleTests.test_trigger_words_do_not_fire) ... ok
+test_variant_is_reported (test_rules.RuleTests.test_variant_is_reported) ... ok
+test_batch (test_server.ServerTests.test_batch) ... ok
+test_health (test_server.ServerTests.test_health) ... ok
+test_scan (test_server.ServerTests.test_scan) ... ok
+test_validation (test_server.ServerTests.test_validation) ... ok
+test_base64_only_when_readable (test_text.TextTests.test_base64_only_when_readable) ... ok
+test_canonical_strips_invisible_and_homoglyphs (test_text.TextTests.test_canonical_strips_invisible_and_homoglyphs) ... ok
+test_leetspeak_and_reversed (test_text.TextTests.test_leetspeak_and_reversed) ... ok
+test_script_mix (test_text.TextTests.test_script_mix) ... ok
+test_split_letters_leaves_normal_text (test_text.TextTests.test_split_letters_leaves_normal_text) ... ok
+test_split_letters_symbol_and_spaces (test_text.TextTests.test_split_letters_symbol_and_spaces) ... ok
+
+----------------------------------------------------------------------
+Ran 46 tests in 0.600s
+
+OK
