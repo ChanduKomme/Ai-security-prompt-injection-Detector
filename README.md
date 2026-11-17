@@ -1,6 +1,6 @@
 #   Ai-security-prompt-injection-Detector
 
-**Beginner project** · Python 3.10+ · Regular expressions · Structured Claude verdicts · Precision and recall
+
 
 Run a local scanner on 30 labeled prompts, then optionally compare its decisions with Claude’s. The benchmark shows which prompts each method flags, where it misses an injection, and how much of the dataset each method scored.
 
